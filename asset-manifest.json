@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/myLotto/static/css/main.e964cbf8.chunk.css",
-    "main.js": "/myLotto/static/js/main.df38edee.chunk.js",
-    "main.js.map": "/myLotto/static/js/main.df38edee.chunk.js.map",
+    "main.css": "/myLotto/static/css/main.59fe2dc4.chunk.css",
+    "main.js": "/myLotto/static/js/main.8c81ace2.chunk.js",
+    "main.js.map": "/myLotto/static/js/main.8c81ace2.chunk.js.map",
     "runtime-main.js": "/myLotto/static/js/runtime-main.7d41b569.js",
     "runtime-main.js.map": "/myLotto/static/js/runtime-main.7d41b569.js.map",
     "static/js/2.ceeb8c8a.chunk.js": "/myLotto/static/js/2.ceeb8c8a.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.04e045c9.chunk.js": "/myLotto/static/js/3.04e045c9.chunk.js",
     "static/js/3.04e045c9.chunk.js.map": "/myLotto/static/js/3.04e045c9.chunk.js.map",
     "index.html": "/myLotto/index.html",
-    "static/css/main.e964cbf8.chunk.css.map": "/myLotto/static/css/main.e964cbf8.chunk.css.map",
+    "static/css/main.59fe2dc4.chunk.css.map": "/myLotto/static/css/main.59fe2dc4.chunk.css.map",
     "static/js/2.ceeb8c8a.chunk.js.LICENSE.txt": "/myLotto/static/js/2.ceeb8c8a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7d41b569.js",
     "static/js/2.ceeb8c8a.chunk.js",
-    "static/css/main.e964cbf8.chunk.css",
-    "static/js/main.df38edee.chunk.js"
+    "static/css/main.59fe2dc4.chunk.css",
+    "static/js/main.8c81ace2.chunk.js"
   ]
 }
