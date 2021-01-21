@@ -1,25 +1,16 @@
-import logo from './logo.svg';
+// /* eslint-disablt */ //문법 warning console에 뜨지 않도록
+
+import React from "react";
 import './App.css';
+import LottoRandomTemplate from "./lotto/LottoRandomTemplate";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        <div className="lotto-random-template">
+            <LottoRandomTemplate />
+        </div>
+    );
 }
 
 export default App;
