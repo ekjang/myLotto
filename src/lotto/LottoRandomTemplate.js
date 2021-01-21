@@ -30,6 +30,16 @@ class LottoRandomTemplate extends Component {
         this.setState({selected})
     }
 
+    clearButtonOnClick = () => {
+        const {lottoNumbers} = this.state
+        if(lottoNumbers.length > 0) {
+            while (lottoNumbers.length > 0) {
+                lottoNumbers.pop()
+            }
+        }
+        this.setState({lottoNumbers})
+    }
+
     //숫자 선택 이벤트 발생
     handleChange = (checked, number) => {
         console.log(number);
@@ -39,14 +49,7 @@ class LottoRandomTemplate extends Component {
     ;}
 
 
-    Modal = () => {
-        return (
-        <div>
-            몇개?
-        </div>
-        );
-    }
-
+    //몇개 보여줄지.?
     selectBundle = (flag, numbers) => {
 
         const {lottoNumbers} = this.state
@@ -117,6 +120,7 @@ class LottoRandomTemplate extends Component {
                     />
                     <LottoRandomContents
                         lottoNumbers={this.state.lottoNumbers}
+                        clearButtonOnClick={this.clearButtonOnClick}
                     />
                 </div>
             </div>

@@ -7,12 +7,17 @@ class LottoRandomContents extends Component {
         const lottoNumbers = this.props.lottoNumbers
         return (
             <div className="lotto-random-contents">
-                {lottoNumbers.map((lottoNumber, i) =>
-                    <LottoBoxComponent
-                        key={i}
-                        lottoNumber={lottoNumber}
-                    />
-                )}
+                <div className="blank-style">
+                    <button className="clear-button" onClick={this.props.clearButtonOnClick}>Clear</button>
+                </div>
+                <div>
+                    {lottoNumbers.map((lottoNumber, i) =>
+                        <LottoBoxComponent
+                            key={i}
+                            lottoNumber={lottoNumber}
+                        />
+                    )}
+                </div>
             </div>
         );
     }

@@ -12,9 +12,13 @@ class NumberPlateComponent extends Component {
     render() {
         return (
             <div>
-                <div className="number-plate-box">
+                <div className="text-style">
+                    포함하고 싶은 숫자를 선택하세요😊
+                </div>
+                <div className="number-plate-all-box">
                     <input type="checkbox" checked={this.props.allCheck} onChange={this.allHandleChange} />
                     <span>ALL</span>
+                    <button className="number-button" onClick={this.props.handleButtonOnClick}>Generate</button>
                 </div>
                 <div className="number-plate-contents">
                     {this.props.selected.map((select, index)=>
@@ -26,7 +30,6 @@ class NumberPlateComponent extends Component {
                             />
                     )}
                 </div>
-                <button className="number-button" onClick={this.props.handleButtonOnClick}>Generate</button>
             </div>
         );
     }

@@ -5,7 +5,7 @@ class LottoRandomHeader extends Component {
     render() {
         return (
             <div className="lotto-random-header">
-                <b>Lotto Random Number Generator</b>
+                <b>Hello Jerrytto</b>
             </div>
         );
     }

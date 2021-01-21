@@ -11,7 +11,7 @@ class LottoBoxComponent extends Component {
         const b_number = this.props.lottoNumber[6]
 
         return (
-            <div>
+            <div className="lotto-contents">
                 <div className="lotto-box">
                     {numbers.map(n=>
                         <div

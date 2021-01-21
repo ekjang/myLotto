@@ -1,3 +1,9 @@
+.lotto-contents{
+    margin-top: 20px;
+    flex: 25%;
+    flex-grow: 0;
+}
+
 .lotto-box{
     height: 60px;
     display: flex;
@@ -12,7 +18,7 @@
     border: 1px solid;
     margin: 10px 15px;
     text-align: center;
-    font-size: 31px;
+    font-size: 25px;
     border-radius: 50%;
 }
 
@@ -21,5 +27,5 @@
     height: 40px;
     margin: 8px;
     text-align: center;
-    font-size: 31px;
+    font-size: 25px;
 }
